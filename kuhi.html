@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berger Hut</title>
+    <style>
+        /* Override default styling */
+        body {
+            background-color: black;
+            color: red;
+        }
+
+        header nav ul li a {
+            color: white;
+        }
+
+        /* Red rectangle container for navigation */
+        .nav-container {
+            background-color: red;
+        }
+
+        .landing-section,
+        .about-section,
+        .menu-section,
+        .reservation-section,
+        .testimonial-section,
+        .gallery-section,
+        footer nav ul li a {
+            color: white;
+        }
+
+        /* Style for the navigation container */
+        .navigation-container {
+            background-color: black(255, 255, 255, 0.1); /* Semi-transparent white */
+            padding: 10px 20px; /* Add some padding */
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Add some margin at the bottom */
+            text-align: center; /* Center align the buttons */
+        }
+
+        .navigation-container ul {
+            list-style-type: none; /* Remove bullets from the list */
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation-container ul li {
+            display: inline-block; /* Display buttons horizontally */
+            margin-right: 10px; /* Add some space between buttons */
+        }
+
+        .navigation-container ul li:last-child {
+            margin-right: 0; /* Remove margin from the last button */
+        }
+			.navigation-container ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+        }
+
+        .navigation-container ul li a:hover {
+            background-color: white; /* Change background color on hover */
+            color: red; /* Change text color on hover */
+        }
+
+        /* Style for the image */
+        .landing-section {
+            position: relative;
+        }
+
+        .square-image {
+            position: absolute;
+            top: 40%;
+            right: 60px; /* Adjust as needed */
+            transform: translateY(-50%);
+            width: 600px; /* Adjust size as needed */
+            height: 400px; /* Adjust size as needed */
+            border-radius: 10px; /* Add rounded corners */
+        }
+    </style>
+</head>
+
+<body>
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <!-- Logo with decreased size -->
+    <img src="file:///C:/Users/HP/Downloads/[removal.ai]_e299ca93-363f-4d18-a67e-dd50a6306524-gjtqulovq-wrwakhhm_syq.png" alt="Your Logo" style="width: 150px; height: auto;">
+
+    <!-- Navigation container -->
+    <div class="navigation-container" style="display: inline-block;">
+        <nav>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="#home">Home</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#about">About</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#menu">Menu</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#reservations">Reservations</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#contact">Contact</a></li>
+                <!-- New list item for login -->
+                <li style="display: inline;"><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section id="home" class="landing-section" style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <h1 style="font-size:80px;">Welcome to Berger Hut</h1>
+		<h2 style="font-size:40px;">Experience the taste of perfection</h2>
+        <a href="#menu" style="display: inline-block; padding: 20px 40px; background-color: red; color: white; text-decoration: none; border-radius: 20px;">Explore our menu</a>
+    </div>
+    
+    <div style="flex: 1;">
+        <img src="file:///C:/Users/HP/Downloads/bollywoodburger-home-1.png" alt="Square Image" class="square-image" style="width:500px; height: 800;">
+    </div>
+</section>
+<section id="about" class="about-section">
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <h2 style="font-size: 100px; font-family: 'Canva Sans', sans-serif; margin-bottom: 0;">About Berger Hut</h2>
+            <p style="font-size: 20px;">Perched high in the Swiss Alps, Berger Hut stands as a beacon of mountaineering tradition. Its rustic charm welcomes weary hikers with the promise of shelter amidst the rugged beauty of the surrounding peaks. Weathered timbers echo tales of adventurers past, while the panoramic views inspire dreams of conquests yet to come. Nestled in a pristine alpine landscape, Berger Hut offers a sanctuary for those seeking solace in the embrace of nature's grandeur. Whether seeking respite from the elements or forging new paths to summits unknown, Berger Hut remains a steadfast companion to all who dare to tread its path.</p>
+            <p style="font-size: 20px;">Nestled amidst the majestic peaks of the Swiss Alps, Berger Hut stands as a timeless monument to exploration and discovery. With its weather-beaten facade blending seamlessly into the rugged terrain, the hut serves as a sanctuary for intrepid adventurers seeking refuge from the elements. As the crisp mountain air whispers tales of ancient glaciers and alpine conquests, visitors are drawn to its welcoming embrace. Berger Hut embodies the spirit of resilience and adventure, offering a haven for those who seek solace amidst nature's untamed beauty. From seasoned mountaineers to curious wanderers, each visitor finds a piece of their own journey reflected in the storied walls of Berger Hut, making it a cherished waypoint on the path of exploration.</p>
+        </div>
+        <div style="flex: 1; display: flex; align-items: flex-start;">
+            <img src="file:///C:/Users/HP/Downloads/Default_blue_pink_purple_gradient_background_with_a_yummy_and_0.jpg" alt="Berger Hut Image" style="width: 100%; height: auto;">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="menu" class="menu-section">
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+        <div class="menu-row">
+            <div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_purple_juicy_yummy_burger_with_bts_theme_only_burger_0.jpg" alt="Burger 1">
+                <h3>Kpop Fresh Kick</h3>
+                <p>Savor the explosive flavors of the K-Pop Kick Burger, inspired by BTS. A fusion of Korean spices and premium beef or plant-based patty, topped with fresh veggies and secret sauce. Get ready for a flavor symphony that'll leave you craving an encore!</p>
+            </div>
+            <div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_rainbow_color_theme_burger_only_burger_0.jpg" alt="Burger 2">
+                <h3>Unicorn Burger</h3>
+                <p>Experience the whimsical delight of our Unicorn Burger: a magical blend of vibrant colors and flavors. Juicy beef or a plant-based patty paired with rainbow-colored toppings, sprinkled with fairy dust seasoning!</p>
+            </div>
+            <div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_wednesday_addams_special_burger_burger_only_burger_0.jpg" alt="Burger 3">
+                <h3>Trick-or-Treat Terror Burger</h3>
+                <p>Sink your teeth into our Halloween Burger, a spook-tacular feast that's sure to thrill your taste buds. Crafted with a juicy beef or plant-based patty, this hauntingly delicious creation  with  toppings like black cheese, pumpkin relish, and ghost sauce, between dark buns. </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_korean_filled_with_ramen_and_other_korean_foodburger_o_0.jpg" alt="Burger 4">
+                <h3>Korean Spices</h3>
+                <p>Embark on a culinary adventure with our Korean Spices Burger, where traditional flavors meet modern zest. Savory beef or a plant-based alternative infused with a tantalizing blend of Korean spices, topped with crisp lettuce, tangy kimchi, and a drizzle of gochujang mayo. </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_bvurger_with_carved_letters_on_it_0.jpg" alt="Burger 5">
+                <h3>Your Special</h3>
+                <p>Introducing our Signature Name-Carved Burger, crafted exclusively for you. Personalize your dining experience with your name delicately carved onto a succulent beef or plant-based patty, nestled between artisanal buns. </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_youtube_burger_0.jpg" alt="Burger 6">
+                <h3>Special Burger </h3>
+                <p>Craft your culinary masterpiece with our Customized Burger experience. Choose from a variety of premium ingredients including succulent beef or plant-based alternatives, select your preferred toppings, cheeses, sauces, and buns, and watch as our expert chefs bring your vision to life.  </p>
+          </div>
+        </div>
+        <div class="menu-row">
+		<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_special_fruit_sundae_0.jpg" alt="Burger 7">
+                <h3>SDouble Loaded Fruit Sundae</h3>
+                <p>Dive into a refreshing oasis with our Fruit Sundae, a luscious blend of seasonal fruits crowned with velvety scoops of vanilla ice cream. Each spoonful is a burst of tropical sweetness, layered with tantalizing textures and drizzled with a cascade of decadent sauces.</p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_pancakes_0.jpg" alt="Burger 8">
+                <h3>Mystic Cakes </h3>
+                <p>Indulge in breakfast bliss with our fluffy pancakes, a timeless classic perfected to golden perfection. Each bite offers a cloud-like texture, paired perfectly with a drizzle of maple syrup that cascades over the edges. Whether enjoyed plain or adorned with berries, chocolate chips, or whipped cream.  </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_tarts_0.jpg" alt="Burger 6">
+                <h3>Fruit Tarts</h3>
+                <p>Delight in our delectable assortment of tarts, crafted with the finest ingredients and artisanal flair. From classic fruit tarts bursting with seasonal sweetness to decadent chocolate tarts oozing with rich indulgence, each bite is a symphony of flavors.   </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_rainbow_cookies_0.jpg" alt="Burger 6">
+                <h3>Rainbow Cookies </h3>
+                <p>Indulge in the sweet delight of our Rainbow Cookies, a burst of color and flavor in every bite. Each cookie is a masterpiece, boasting a spectrum of vibrant hues and a medley of delightful flavors like vanilla, chocolate, and lemon.   </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_croissant_0.jpg" alt="Burger 6">
+                <h3>Chocolaty Croissant </h3>
+                <p>Indulge in the buttery, flaky goodness of our croissants, freshly baked to perfection. Each bite offers a delicate balance of crispy layers and soft, airy dough, crafted with premium ingredients and a touch of French savoir-faire.  </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_cupcake_0.jpg" alt="Burger 6">
+                <h3> Cupcakes </h3>
+                <p>Delight in the heavenly sweetness of our cupcakes, baked to perfection with love and care. Each fluffy confection boasts a decadent flavor profile, from classic vanilla to rich chocolate, adorned with creamy frosting in a variety of delightful designs.  </p>
+            </div>
+			</div>
+            <!-- Third row starts here -->
+            <!-- Add more menu items here -->
+			<div class="menu-row">
+		<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_boba_tea_0.jpg" alt="Burger 7">
+                <h3>Boba</h3>
+                <p>Sip into serenity with our exquisite Boba Tea, a harmonious blend of creamy milk tea and chewy tapioca pearls. Delight your senses with each sip as you encounter the perfect balance of sweetness and richness, accentuated by the delightful texture of the pearls. </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_Blue_mojito_0%20(1).jpg" alt="Burger 8">
+                <h3>Blue Butterfly Mojito </h3>
+                <p>Introducing our Butterfly Blue Mojito, a refreshing twist on a classic cocktail. Crafted with premium rum, fresh mint, zesty lime, and a splash of soda, this vibrant libation is elevated by the addition of butterfly pea flower extract .  </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_fresh_juices_0.jpg" alt="Burger 6">
+                <h3>Fruit Juices</h3>
+                <p>Quench your thirst with our refreshing lineup of fresh juices. Bursting with vitamins and natural flavors, each sip invigorates the senses and nourishes the body. From zesty citrus blends to tropical fruit fusions</p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_Coffee_0.jpg" alt="Burger 6">
+                <h3>Hot coffee</h3>
+                <p>Savor the rich aroma and bold flavor of our freshly brewed coffee. Made from the finest beans sourced from around the world, each sip is a journey of warmth and awakening. Whether you prefer it black, creamy, or sweetened just right</p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_Cold_Coffee_0.jpg" alt="Burger 6">
+                <h3>Cold Coffee</h3>
+                <p>Savor the refreshing allure of our Cold Coffee: a smooth, chilled blend of rich espresso or decadent cold brew, poured over ice for the perfect pick-me-up. Creamy milk or dairy-free alternatives swirl together with a hint of sweetness, creating a blissful harmony of flavors. </p>
+            </div>
+			<div class="menu-item">
+                <img src="file:///C:/Users/HP/Downloads/Default_Rinbow_Drink_0.jpg" alt="Burger 6">
+                <h3>Rainbow Drink</h3>
+                <p>Quench your thirst with our Rainbow Drink, a dazzling concoction that promises a sip of pure joy. A vibrant spectrum of fruity flavors cascades through each layer, creating a visual masterpiece in every glass. From tangy citrus to sweet berry bliss .  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .menu-section {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .menu-container {
+        width: 80%; /* Adjust container width as needed */
+        margin: 0 auto; /* Center the container */
+    }
+
+    .menu-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px; /* Add bottom margin between rows */
+    }
+
+    .menu-item {
+        width: 30%; /* Adjust width as needed */
+        text-align: center;
+        margin-bottom: 40px; /* Add space between menu items */
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Adjustments for smaller screens */
+    @media (max-width: 768px) {
+        .menu-item {
+            width: 100%; /* Adjust width for full width on smaller screens */
+        }
+        .menu-row {
+            flex-direction: column; /* Display rows in column layout for smaller screens */
+            margin-bottom: 40px; /* Reduce bottom margin between rows on smaller screens */
+        }
+    }
+</style>
+
+
+
+
+
+
+
+  <section id="reservations" class="reservation-section">
+    <div class="reservation-container">
+        
+        <div class="form-container">
+		<h1>Make a Reservation</h1>
+            <form>
+                <input type="text" placeholder="Your Name"><br>
+                <input type="email" placeholder="Your Email"><br>
+                <input type="tel" placeholder="Phone Number"><br>
+                <input type="date" placeholder="Date Of Birth" style="width: 600px;"><br>
+                <input type="time" placeholder="Time"><br>
+                <textarea placeholder="Additional Message"></textarea><br>
+                <input type="submit" class="submit-btn" value="Submit">
+            </form>
+        </div>
+    </div>
+</section>
+
+<style>
+    .reservation-section {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .reservation-container {
+        width: 60%; /* Adjust width of the reservation container */
+        margin: 0 auto; /* Center the container */
+    }
+
+    .form-container {
+        background-color: #A9A9A9; /* Grey background color */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    .reservation-container form {
+        width: 100%; /* Ensure the form fills the container */
+        max-width: 600px; /* Limit the form width for readability */
+        margin: 0 auto; /* Center the form */
+    }
+
+    .reservation-container form input[type="text"],
+    .reservation-container form input[type="email"],
+    .reservation-container form input[type="tel"],
+    .reservation-container form input[type="date"],
+    .reservation-container form input[type="time"],
+    .reservation-container form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box; /* Ensure padding and border are included in width */
+    }
+
+    .reservation-container form .submit-btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #ff0000;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+
+
+   <section id="testimonials" class="testimonial-section">
+    <div>
+        <h1 style="font-size: 36px;">What Our Customers Say About Us</h1>
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="customer-photo">
+                    <img src="file:///C:/Users/HP/Desktop/customer1.jpg" alt="Customer 1">
+                    <div class="stars">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <p>"Absolutely delicious! The K-Pop Kick Burger exceeded all my expectations. The blend of Korean spices with the beef patty was perfection, and the fresh veggies added a nice crunch. I'm not even a huge BTS fan, but this burger made me a believer. I'll definitely be coming back for more!"</p>
+				<img src="file:///C:/Users/HP/Downloads/Removal-486.png" alt="Customer 1">
+            </div>
+            <div class="testimonial">
+                <div class="customer-photo">
+                    <img src="file:///C:/Users/HP/Desktop/customer2.jpg" alt="Customer 2">
+                    <div class="stars">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <p>"What a delightful treat! The Unicorn Burger is not only visually stunning but also incredibly tasty. The rainbow-colored toppings added a fun twist, and the flavors were so vibrant and refreshing. It's like a party in your mouth! Highly recommend trying it for a magical dining experience."</p>
+				<img src="file:///C:/Users/HP/Downloads/Removal-486.png" alt="Customer 1">
+            </div>
+            <div class="testimonial">
+                <div class="customer-photo">
+                    <img src="file:///C:/Users/HP/Desktop/customer3.jpg" alt="Customer 3">
+                    <div class="stars">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <p>"I'm in love with the Rainbow Drink! It's my new favorite beverage whenever I need a mood boost. The layers of fruity flavors are so satisfying, and the presentation is Instagram-worthy. Whether you're a kid or a kid at heart, this drink is sure to bring a smile to your face. Five stars!"</p>
+				<img src="file:///C:/Users/HP/Downloads/Removal-486.png" alt="Customer 1">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .testimonial-section {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .testimonial-section h1 {
+        font-size: 36px; /* Adjust heading font size as needed */
+    }
+
+    .testimonials {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        width: 30%;
+        margin-bottom: 40px; /* Adjust spacing between testimonials */
+        text-align: center;
+    }
+
+    .customer-photo {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .customer-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .stars {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        color: gold;
+    }
+
+    .testimonial p {
+        margin-top: 20px; /* Adjust spacing between photo and review */
+    }
+</style>
+
+
+
+
+  <style>
+    .gallery-section {
+        text-align: center; /* Center align the gallery items */
+    }
+
+    .gallery-item {
+        display: inline-block; /* Display items inline */
+        margin: 10px; /* Add some margin between items */
+        width: calc(25% - 20px); /* Set width for each item (25% of container width minus margin) */
+    }
+
+    .gallery-item img {
+        max-width: 100%; /* Ensure images don't exceed their container */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
+
+<section id="gallery" class="gallery-section">
+    <div>
+        <h2>Gallery</h2>
+        <div class="gallery-item">
+            <img src="file:///C:/Users/HP/Downloads/gallery1.jpg.jpg" alt="Gallery 1">
+        </div>
+        <div class="gallery-item">
+            <img src="file:///C:/Users/HP/Downloads/gallery2.jpg.jpg" alt="Gallery 2">
+        </div>
+        <div class="gallery-item">
+            <img src="file:///C:/Users/HP/Downloads/gallery3.jpg.jpg" alt="Gallery 3">
+        </div>
+        <div class="gallery-item">
+            <img src="file:///C:/Users/HP/Downloads/gallery4.jpg.jpg" alt="Gallery 4">
+        </div>
+		<div class="gallery-item">
+            <img src="file:///C:/Users/HP/Downloads/Default_burger_shop_cafe_0.jpg" alt="Gallery 4">
+    </div>
+</section>
+
+    <footer>
+        <nav>
+            <ul>
+				<img src="file:///C:/Users/HP/Downloads/[removal.ai]_e299ca93-363f-4d18-a67e-dd50a6306524-gjtqulovq-wrwakhhm_syq.png" alt="Footer Image">
+				<style>
+				footer img {
+    width: 150px; /* Adjust according to your image size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures image doesn't affect text alignment */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  .footer-box {
+    display: inline-block;
+    width: 30%; /* Adjust the width of each box */
+    margin: 0 10px; /* Adjust the spacing between boxes */
+    vertical-align: top; /* Align boxes to the top */
+    text-align: left; /* Align text within boxes to the left */
+  }
+
+  /* CSS for box headings */
+  .box-heading {
+    color: #fff; /* Color for box headings */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* CSS for box content */
+  .box-content {
+    color: #ccc; /* Color for box content */
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Your page content here -->
+
+<footer>
+  <div class="footer-box">
+    <div class="box-heading">Name</div>
+    <div class="box-content">John Doe</div>
+  </div>
+  <div class="footer-box">
+    <div class="box-heading">Number</div>
+    <div class="box-content">123-456-7890</div>
+  </div>
+  <div class="footer-box">
+    <div class="box-heading">Email</div>
+    <div class="box-content">john@example.com</div>
+  </style>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
+
